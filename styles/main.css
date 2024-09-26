@@ -4,4 +4,148 @@
   box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 0;
+}
+
+.universal__btn {
+  background-color: #ae7b3c;
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.0509803922);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  padding: 22px 49px 22px 56px;
+  border: none;
+  cursor: pointer;
+  transition: 1s ease-in;
+}
+
+.universal__btn:hover {
+  background: rgb(179, 69, 19);
+  transition: all 1s ease-in-out;
+  color: aquamarine;
+  font-weight: bold;
+}
+
+.nav {
+  padding: 20px;
+}
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 143px;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav__list__item {
+  list-style: none;
+}
+.nav__list__item a {
+  text-decoration: none;
+  color: #282B22;
+}
+.nav__contact__container {
+  display: flex;
+  align-items: center;
+  gap: 63px;
+}
+.nav__smm__container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.nav__phone__container {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.nav__burger__btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav__burger__btn span {
+  width: 25px;
+  height: 1px;
+  gap: 9px;
+  display: block;
+}
+
+.hero__section {
+  padding: 120px 532px 222px 531px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) -13.19%, rgba(0, 0, 0, 0.85) 94.01%), url("../images/hero image.svg") no-repeat center/cover;
+}
+.hero__section .hero__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.hero__section .hero__title {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hero__section .hero__info {
+  width: 537px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: center;
+  color: #fff;
+}
+.hero__section .hero__btn {
+  margin-top: 30px;
+}
+
+@media (max-width: 1000px) {
+  .nav__wrapper {
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    padding: 0px;
+  }
+  .nav__list {
+    gap: 30px;
+  }
+  .nav__smm__container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .nav__phone__container {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+}
+@media (max-width: 640px) {
+  .nav__wrapper {
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 0px;
+  }
+  .nav__list {
+    display: none;
+  }
+  .nav__burger__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9px;
+  }
+  .nav__burger__btn span {
+    width: 25px;
+    height: 1px;
+    display: block;
+  }
 }/*# sourceMappingURL=main.css.map */

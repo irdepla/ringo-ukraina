@@ -1,0 +1,51 @@
+.nav {
+  padding: 20px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 143px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    &__item {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: $text-color;
+      }
+    }
+  }
+
+  &__contact__container {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+  }
+
+  &__smm__container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  &__phone__container {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  &__burger__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    span {
+      width: 25px;
+      height: 1px;
+      gap: 9px;
+      display: block;
+    }
+  }
+}
