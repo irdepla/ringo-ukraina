@@ -65,6 +65,7 @@
 .nav__burger__btn {
   display: none;
 }
+
 .hero__section {
   padding: 120px 532px 222px 531px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) -13.19%, rgba(0, 0, 0, 0.85) 94.01%), url("../images/hero image.svg") no-repeat center/cover;

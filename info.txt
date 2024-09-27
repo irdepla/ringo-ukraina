@@ -1,0 +1,57 @@
+In JavaScript, if, else if, and else statements are used for conditional logic to control the flow of a program based on certain conditions.
+
+1. if Statement:
+The if statement checks a condition, and if it evaluates to true, the block of code inside the if statement is executed.
+
+else if Statement:
+After an if block, you can use else if to check another condition if the first one is false. You can have multiple else if statements.
+
+
+
+The else statement is optional and runs if none of the previous if or else if conditions are true.
+
+Comparison operators are used to compare two values and return a boolean (true or false) result. They are essential for making decisions in your code, especially in if or switch statements.
+
+List of Comparison Operators:
+== (Equal to):
+
+Compares two values for equality, but performs type conversion if needed.
+Example: 5 == '5' is true (because of type conversion).
+=== (Strict equal to):
+
+Compares two values for equality without type conversion. Both type and value must be the same.
+Example: 5 === '5' is false (because one is a number, the other is a string).
+!= (Not equal to):
+
+Compares two values for inequality, performing type conversion.
+Example: 5 != '5' is false (since after conversion they are considered equal).
+!== (Strict not equal to):
+
+Compares two values for inequality without type conversion.
+Example: 5 !== '5' is true (because the types differ).
+> (Greater than):
+
+Checks if the left value is greater than the right.
+Example: 10 > 5 is true.
+>= (Greater than or equal to):
+
+Checks if the left value is greater than or equal to the right.
+Example: 10 >= 10 is true.
+< (Less than):
+
+Checks if the left value is less than the right.
+Example: 5 < 10 is true.
+<= (Less than or equal to):
+
+Checks if the left value is less than or equal to the right.
+Example: 5 <= 5 is true.
+
+
+A switch statement is a way to execute different pieces of code based on the value of a variable or expression. It’s particularly useful when you have a single variable that can have multiple possible values, and you want to perform different actions for each value.
+
+How Does It Work?
+Start with a variable or expression: You provide a variable or an expression you want to evaluate.
+Define multiple cases: Each case checks if the variable or expression matches a specific value.
+Execute code for the matching case: When a match is found, the code inside that case runs.
+Use break: After executing the matching case, you usually use break to stop further checking of cases.
+Optional default case: If none of the cases match, you can include a default case that runs.
